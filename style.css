@@ -4,8 +4,7 @@
     box-sizing: border-box;
 }
 
-body
-{
+body {
     overflow-x: hidden;
 }
 
@@ -116,8 +115,7 @@ nav .nav-link:hover {
     color: #b8b9bc;
 }
 
-.btn
-{
+.btn {
     background-color: #03a413;
     color: white;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
@@ -126,8 +124,7 @@ nav .nav-link:hover {
 
 
 
-.container
-{
+.container {
     margin-left: 5rem;
     margin-right: 5rem;
 }
@@ -135,20 +132,20 @@ nav .nav-link:hover {
 
 /* First Div */
 
-.btn:hover{
+.btn:hover {
     color: #03a413;
     background-color: #e3efff;
 }
 
 
-.first-div,.second-div
-{
+.first-div,
+.second-div {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 
-.first-text,.second-text
-{
+.first-text,
+.second-text {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -156,47 +153,42 @@ nav .nav-link:hover {
     justify-content: center;
 }
 
-.first-text p{
+.first-text p {
     font-size: 2rem;
 }
 
-.first-t{
+.first-t {
     font-size: 2.9rem;
     font-weight: 700;
 }
 
-.btns
-{
+.btns {
     display: flex;
     gap: 20px;
 }
 
-.first-img
-{
+.first-img {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.first-img img{
+.first-img img {
     width: 100%;
     height: auto;
 }
 
-.btn-hide
-{
+.btn-hide {
     color: #03a413;
     background-color: #e3efff;
 }
 
-.btn-hide:hover
-{
+.btn-hide:hover {
     background-color: #03a413;
     color: #e3efff;
 }
 
-.first-l
-{
+.first-l {
     margin-top: 2rem;
     font-size: 0.8rem;
     display: flex;
@@ -206,8 +198,7 @@ nav .nav-link:hover {
     margin-right: 5rem;
 }
 
-.l-1
-{
+.l-1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -218,26 +209,22 @@ nav .nav-link:hover {
 /* Second-div */
 
 
-.second-div
-{
+.second-div {
     gap: 5rem;
     margin-top: 5rem;
 }
 
-.second-img
-{
+.second-img {
     padding: 2rem;
     padding-left: 0rem;
 }
 
-.second-head
-{
+.second-head {
     position: relative;
     margin-bottom: 1.5rem;
 }
 
-.second-head::after
-{
+.second-head::after {
     position: absolute;
     content: '';
     width: 150px;
@@ -253,7 +240,7 @@ nav .nav-link:hover {
 /* Financial Courses */
 
 
-.bar{
+.bar {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -267,17 +254,15 @@ nav .nav-link:hover {
 /* Stock */
 
 
-.stock-divs
-{
+.stock-divs {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
 
-.stock
-{
+.stock {
     padding: 1.5rem;
     border: 1px solid gray;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
@@ -287,8 +272,7 @@ nav .nav-link:hover {
     border-radius: 8px;
 }
 
-.stock-head-div
-{
+.stock-head-div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -296,16 +280,14 @@ nav .nav-link:hover {
     font-weight: 650;
 }
 
-.stock-head
-{
+.stock-head {
     margin-bottom: 0rem;
     font-size: 0.8rem;
     text-transform: uppercase;
     color: rgb(57, 57, 255);
 }
 
-.live-btn
-{
+.live-btn {
     font-weight: 600;
     background-color: none;
     color: red;
@@ -316,51 +298,45 @@ nav .nav-link:hover {
     transition: 0.3s all ease;
 }
 
-.live-btn:hover{
+.live-btn:hover {
     background-color: red;
     color: white;
 }
 
-.date-time
-{
+.date-time {
     display: flex;
     flex-direction: row;
     align-items: center;
     color: gray;
 }
 
-.date-time p
-{
+.date-time p {
     margin-right: 20px;
     margin-bottom: 0rem;
 }
 
-.stock-data
-{
+.stock-data {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 19px;
 }
 
-.mentors
-{
+.mentors {
     display: flex;
     flex-direction: column;
     margin-bottom: 0px;
     width: 40%;
 }
 
-.mentor-acc
-{
+.mentor-acc {
     display: flex;
     flex-direction: row;
     gap: -5px;
     position: relative;
 }
 
-.mentor-l
-{
+.mentor-l {
     position: absolute;
     border-radius: 50%;
     height: 20px;
@@ -374,41 +350,35 @@ nav .nav-link:hover {
     transition: 0.3s all ease;
 }
 
-.mentor-l:hover
-{
+.mentor-l:hover {
     transform: scale(1.09);
 }
 
-.acc-1
-{
+.acc-1 {
     top: 0;
     left: 0;
     z-index: 4;
 }
 
-.acc-2
-{
+.acc-2 {
     top: 0;
     left: 20px;
     z-index: 3;
 }
 
-.acc-3
-{
+.acc-3 {
     top: 0;
     left: 43px;
     z-index: 2;
 }
 
-.acc-4
-{
+.acc-4 {
     top: 0;
     left: 63px;
     z-index: 1;
 }
 
-.stock-batch
-{
+.stock-batch {
     width: 60%;
     font-weight: 600;
     display: flex;
@@ -416,8 +386,7 @@ nav .nav-link:hover {
     gap: 5px;
 }
 
-.batch-head
-{
+.batch-head {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -426,30 +395,26 @@ nav .nav-link:hover {
 
 }
 
-.batch-progress
-{
+.batch-progress {
     height: 10px;
     border-radius: 4px;
     background-color: #dffaee;
 }
 
-.batch-bar
-{
+.batch-bar {
     height: 10px;
     width: 78%;
     background-color: #7bd0a7;
     border-radius: 4px;
 }
 
-.stock-btn
-{
+.stock-btn {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.explore-btn
-{
+.explore-btn {
     width: 80%;
     background-color: #1294f2;
     color: white;
@@ -462,26 +427,22 @@ nav .nav-link:hover {
 /* Fourth-div */
 
 
-.fourth-div
-{
+.fourth-div {
     margin-top: 2rem;
     margin-bottom: 5rem;
 }
 
-.fourth-div  p
-{
+.fourth-div p {
     font-size: 1.3rem;
     font-weight: 500;
     text-align: center;
 }
 
-.fourth-img-div
-{
+.fourth-img-div {
     position: relative;
 }
 
-.fourth-img-div::before
-{
+.fourth-img-div::before {
     position: absolute;
     content: '';
     height: 100%;
@@ -494,23 +455,20 @@ nav .nav-link:hover {
     left: 0;
 }
 
-.fourth-img
-{
+.fourth-img {
     margin-left: 5rem;
     width: 60%;
     height: auto;
 }
 
-.fourth-1
-{
+.fourth-1 {
     margin-top: 5rem;
     width: 100%;
     display: flex;
     flex-direction: row;
 }
 
-.fourth-1-text
-{
+.fourth-1-text {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -519,23 +477,23 @@ nav .nav-link:hover {
     font-weight: 600;
 }
 
-.fourth-img2{
+.fourth-img2 {
     margin: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.fourth-img2 img{
+.fourth-img2 img {
     width: 80%;
     height: auto;
 }
 
-.exp-btn:hover{
+.exp-btn:hover {
     background-color: #e3efff !important;
 }
 
-.exp-btn{
+.exp-btn {
     width: 40%;
 }
 
@@ -543,26 +501,23 @@ nav .nav-link:hover {
 
 /* Fifith-div */
 
-.fifth-grid
-{
+.fifth-grid {
     margin: 10rem;
     margin-top: 5rem;
     margin-bottom: 5rem;
     display: grid;
     gap: 2rem;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
-.fifth-l
-{
+.fifth-l {
     display: flex;
     justify-content: center;
     flex-direction: column;
     gap: 15px;
 }
 
-.fifth-l ion-icon
-{
+.fifth-l ion-icon {
     padding: 10px;
     border-radius: 5px;
     background-color: #03a413;
@@ -570,12 +525,11 @@ nav .nav-link:hover {
     transition: 0.3s all ease;
 }
 
-.fifth-l p{
+.fifth-l p {
     font-size: 0.8rem;
 }
 
-.fifth-l ion-icon:hover
-{
+.fifth-l ion-icon:hover {
     transform: scale(1.08);
 }
 
@@ -584,8 +538,7 @@ nav .nav-link:hover {
 
 
 
-.fifth-r
-{
+.fifth-r {
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -593,8 +546,7 @@ nav .nav-link:hover {
     align-items: center;
 }
 
-.fifth1
-{
+.fifth1 {
     padding: 10px;
     border-radius: 5px;
     width: 40px;
@@ -609,8 +561,7 @@ nav .nav-link:hover {
 
 
 
-.sixth-div
-{
+.sixth-div {
     margin-top: 5rem;
     padding-top: 5rem;
     margin-bottom: 5rem;
@@ -623,14 +574,12 @@ nav .nav-link:hover {
     color: white;
 }
 
-.sixth-div img
-{
+.sixth-div img {
     width: 60%;
     height: auto;
 }
 
-.accordion-button
-{
+.accordion-button {
     font-weight: 600;
 }
 
@@ -638,13 +587,11 @@ nav .nav-link:hover {
 /* Seventh-div */
 
 
-.accordion-button
-{
+.accordion-button {
     transition: 0.5s all ease;
 }
 
-.accordion-button:not(.collapsed)
-{
+.accordion-button:not(.collapsed) {
     color: #03a413;
     background-color: #e3efff;
 }
@@ -653,26 +600,23 @@ nav .nav-link:hover {
     box-shadow: none !important;
 }
 
-.accordion-button:hover
-{
+.accordion-button:hover {
     background-color: rgb(191, 191, 191) !important;
 
 }
 
 
 
-.seventh1-div
-{
+.seventh1-div {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:5rem;
+    margin: 5rem;
     margin-top: 0rem;
     margin-bottom: 3rem;
 }
 
-.seventh-img
-{
+.seventh-img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -683,203 +627,214 @@ nav .nav-link:hover {
 /* Eight-div */
 
 
-.eigth-div
-{
+.eigth-div {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     font-weight: 600;
     font-size: 1.3rem;
     margin-bottom: 4rem;
 }
 
-.eight-links p 
-{
+.eight-links p {
     cursor: pointer;
     transition: 0.3s all ease;
 }
 
-.eight-links p:hover
-{
+.eight-links p:hover {
     color: rgb(139, 139, 139);
 }
 
 
 @media (max-width:900px) {
 
-    .container
-    {
+    .container {
         margin-left: 0.5rem;
         margin-right: 0.5rem
     }
+
     .dropdown-menu.show {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .first-div
-    {
+    .first-div {
         margin-top: 2rem;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
-    .second-div
-    {
-        grid-template-columns: repeat(1,1fr);
+    .second-div {
+        grid-template-columns: repeat(1, 1fr);
         margin-bottom: 2rem;
     }
 
-    .second-img
-    {
+    .second-img {
         display: none;
     }
 
-    .btn
-    {
+    .btn {
         font-size: 0.8rem;
     }
 
 
-    .heading
-    {
+    .heading {
         padding: 0rem;
     }
 
-    .heading img
-    {
+    .heading img {
         height: 40px;
     }
 
-    .stock-head
-    {
+    .stock-head {
         font-size: 0.7rem;
     }
 
-    .stock-divs
-    {
-        grid-template-columns: repeat(2,1fr);
+    .stock-divs {
+        grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
     }
 
-    .date-time 
-    {
+    .date-time {
         font-size: 0.8rem;
     }
 
-    .mentor-l
-    {
+    .mentor-l {
         font-size: 8px;
         height: 10px;
         width: 10px;
         padding: 10px;
     }
 
-    .acc-2{left: 15px;}
-    .acc-3{left: 30px;}
-    .acc-4{left: 45px;}
+    .acc-2 {
+        left: 15px;
+    }
 
-    .batch-bar
-    {
+    .acc-3 {
+        left: 30px;
+    }
+
+    .acc-4 {
+        left: 45px;
+    }
+
+    .batch-bar {
         height: 7px;
     }
 
-    .batch-progress
-    {
+    .batch-progress {
         height: 7px;
     }
 
-    .first-t
-    {
+    .first-t {
         font-size: 2rem;
     }
 
-    .bar
-    {
+    .bar {
         font-size: 1.2rem;
     }
 
-    .fourth-div p{
+    .fourth-div p {
         font-size: 1rem;
     }
 
-    .fourth-img
-    {
+    .fourth-img {
         padding-top: 1rem;
         margin-left: 2rem;
         width: 100%;
     }
 
-    .fourth-img-div
-    {
+    .fourth-img-div {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100%;
     }
 
-    .fourth-1-text
-    {
+    .fourth-1-text {
         z-index: 3;
         width: 100%;
     }
 
-    .fourth-img-div::before
-    {
+    .fourth-img-div::before {
         width: 100%;
     }
 
-    .exp-btn
-    {
+    .exp-btn {
         width: 70%;
     }
-    .fifth-grid
-    {
+
+    .fifth-grid {
         margin-left: 0rem;
         margin-right: 0rem;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
-    .fifth-grid h5
-    {
+    .fifth-grid h5 {
         font-size: 1rem;
     }
 
 
-    .fifth-l p 
-    {
+    .fifth-l p {
         font-size: 0.7rem;
     }
 
-    .fourth-img2
-    {
+    .fourth-img2 {
         margin: 1rem;
         margin-top: 5rem;
     }
 
-    .seventh1-div
-    {
+    .seventh1-div {
         margin: 2rem;
         margin-left: 1rem;
         margin-right: 1rem;
     }
 
-    .seventh-img img
-    {
+    .seventh-img img {
         width: 40%;
         gap: 5px;
     }
 
-    .eigth-div 
-    {
-        grid-template-columns: repeat(2,1fr);
+    .eigth-div {
+        grid-template-columns: repeat(2, 1fr);
         font-size: 0.8rem;
     }
 
-    .eigth-div img
-    {display: none;}
+    .eigth-div img {
+        display: none;
+    }
 
-    .stock
-    {
+    .stock {
         padding-left: 0.5rem;
         padding-right: 0.5rem;
     }
+}
+
+/* Set the width of the scrollbar */
+::-webkit-scrollbar {
+    border: 5px solid #ccc;
+    width: 10px;
+}
+
+
+/* Set the color of the scrollbar thumb and track */
+::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    height: 80px;
+    background-color: #03a413;
+    transition: all 1s ease-in-out;
+}
+
+/* Change the color of the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+    transform: scale(1.5);
+    background-color: #555;
+    /* Change to the desired color */
+}
+
+::-webkit-scrollbar-track {
+    background-color: #e3efff;
+}
+
+/* Hide the scrollbar corner */
+::-webkit-scrollbar-corner {
+    display: none;
 }
