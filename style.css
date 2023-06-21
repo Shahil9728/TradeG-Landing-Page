@@ -823,6 +823,10 @@ nav .nav-link:hover {
         grid-template-columns: repeat(1, 1fr);
         gap: 1rem;
     }
+    .fifth-grid
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
 }
 
 /* Set the width of the scrollbar */
