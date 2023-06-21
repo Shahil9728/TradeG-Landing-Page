@@ -743,15 +743,24 @@ nav .nav-link:hover {
     }
 
     .fourth-img-div {
-        display: flex;
+        display: none;
+        /* display: flex;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        width: 100%; */
     }
 
     .fourth-1-text {
         z-index: 3;
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fourth-1
+    {
+        flex-direction: column;
     }
 
     .fourth-img-div::before {
@@ -805,6 +814,14 @@ nav .nav-link:hover {
     .stock {
         padding-left: 0.5rem;
         padding-right: 0.5rem;
+    }
+}
+
+@media (max-width:600px) 
+{
+    .stock-divs {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
     }
 }
 
